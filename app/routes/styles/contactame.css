@@ -1,0 +1,36 @@
+div .encabezado {
+  text-align: center;
+  color: var(--blanco);
+  margin-top: 1em;
+}
+.contactame_container {
+  box-shadow: -1rem 0 3rem #000;
+}
+
+.contactame_container {
+  background-image: url(../../../public/img//collage.jpg);
+  border-radius: 10px;
+}
+.button {
+  position: fixed;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+.contactame_content {
+  height: 300px;
+  width: 800px;
+  left: cal(50% - 300px);
+  display: flex;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 350px;
+  height: 250px;
+  background-color: var(--perfile);
+  border-radius: 10px;
+  box-shadow: -1rem 0 3rem #000;
+  left: 0;
+}

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_1" data-name="Capa 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 294.9 297.76">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: #f3e84f;
+      }
+
+      .cls-3 {
+        fill: #59b13d;
+      }
+
+      .cls-4 {
+        fill: #6ac0b1;
+      }
+
+      .cls-5 {
+        fill: #e04b4b;
+      }
+
+      .cls-6 {
+        fill: #34b298;
+      }
+
+      .cls-7 {
+        fill: #1d1d1b;
+        font-family: Calibri-Bold, Calibri;
+        font-size: 114.34px;
+        font-weight: 700;
+      }
+    </style>
+  </defs>
+  <ellipse class="cls-4" cx="147.45" cy="148.88" rx="147.45" ry="148.88"/>
+  <path class="cls-1" d="m236.46,87.94v135.92c0,8.22-6.6,14.89-14.74,14.89H73.2c-8.15,0-14.75-6.66-14.75-14.89V87.94"/>
+  <path class="cls-6" d="m58.44,87.94v-14.05c0-8.22,6.6-14.89,14.75-14.89h148.52c8.14,0,14.74,6.68,14.74,14.9v14.04"/>
+  <ellipse class="cls-3" cx="106.33" cy="76.98" rx="5.27" ry="5.32"/>
+  <ellipse class="cls-2" cx="91.98" cy="76.98" rx="5.27" ry="5.32"/>
+  <ellipse class="cls-5" cx="75.97" cy="76.98" rx="5.27" ry="5.32"/>
+  <text class="cls-7" transform="translate(81.24 192.43) scale(.83 1)"><tspan x="0" y="0">&lt;/&gt;</tspan></text>
+</svg>

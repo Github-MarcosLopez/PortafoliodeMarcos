@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/styles/contactame.css"],
+  "sourcesContent": ["div .encabezado {\n  text-align: center;\n  color: var(--blanco);\n  margin-top: 1em;\n}\n.contactame_container {\n  box-shadow: -1rem 0 3rem #000;\n}\n\n.contactame_container {\n  background-image: url(../../../public/img//collage.jpg);\n  border-radius: 10px;\n}\n.button {\n  position: fixed;\n  bottom: 0;\n  background: rgba(0, 0, 0, 0.5);\n  padding: 10px;\n}\n.contactame_content {\n  height: 300px;\n  width: 800px;\n  left: cal(50% - 300px);\n  display: flex;\n}\n.card {\n  display: flex;\n  flex-direction: column;\n  position: relative;\n  width: 350px;\n  height: 250px;\n  background-color: var(--perfile);\n  border-radius: 10px;\n  box-shadow: -1rem 0 3rem #000;\n  left: 0;\n}"],
+  "mappings": ";AAAA;AACE;AACA;AACA;;AAEF;AACE;AAIA;AAVF;;AAaA;AACE;AACA;AACA;AAhBF;;AAmBA;AACE;AACA;AACA;AACA;;AAEF;AACE;AACA;AACA;AACA;AACA;AACA;AA/BF;AAiCE;AACA;;",
+  "names": []
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/routes/styles/portaIndex.css"],
+  "sourcesContent": ["/*Css Home*/\n.perfile-img {\n  height: 75vh;\n  width: auto;\n}\n.portafolio-section {\n  display: flex;\n  align-items: center;\n}\n.about-container{\n  display: flex;\n}\n.card {\n  width: 290px;\n  height: 450px;\n  border-radius: 10px;\n  box-shadow: 2px 3px 5px rgba(73, 69, 52, 0.4);\n  margin: 20px;\n}\n.card .card-content {\n  display: flex;\n  flex-direction: column;\n  position: relative;\n  width: 100%;\n  height: 100%;\n  border-radius: 10px;\n  overflow: hidden;\n  text-align: center;\n  padding: 30px;\n  background-color: var(--perfile);\n}\n.card .card-content p {\n  margin-top: 40px;\n  color: var(--blanco);\n}\n.portafolio-h3 {\n  text-align: center;\n  color: var(--blanco);\n  padding-bottom: 10%;\n  border-bottom: 1px solid var(--color-border);\n}\n.card-content p {\n  font-size: 16px;\n}\n.card-conteiner {\n  padding-top: 20px  ;\n}\n"],
+  "mappings": ";AACA;AACE;AACA;;AAEF;AACE;AACA;;AAEF;AACE;;AAEF;AACE;AACA;AAdF;AAgBE;AAhBF;;AAmBA;AACE;AACA;AACA;AACA;AACA;AAxBF;AA0BE;AACA;AA3BF;AA6BE;;AAEF;AACE;AACA;;AAEF;AACE;AACA;AACA;AACA;;AAEF;AACE;;AAEF;AACE;;",
+  "names": []
+}

@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!--Estilos CSS -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" sizes="180x180" href="assets/icons/apple-touch-icon.png" />
+  <link rel="icon" type="image/svg" sizes="32x32" href="assets/icons/icon.svg" />
+
+  <!-- Animaciones CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Marcos Lopez | Desarrollador Web</title>
+</head>
+
+<body>
+  <!-- Barra de Navegación -->
+
+  <!--<nav>
+    <h1>Portafolio</h1>
+    <ul class="navegacion">
+      <li><a href="#hero-sobre" class="nav-link">Acerca de Mí</a></li>
+      <li><a href="#abilities" class="nav-link">Habilidades</a></li>
+      <li><a href="#proyectos" class="nav-link">Proyectos</a></li>
+      <li><a href="#contacto" class="nav-link">Contacto</a></li>
+    </ul>
+    <button class="menu-hamburguesa" id="menu-hamburguesa">
+      <ion-icon class="barras" name="menu-outline"></ion-icon>
+    </button>
+  </nav>-->
+
+  <!-- Sección Hero  -->
+  <section class="hero" id="hero">
+    <img src="assets/images/Junior.svg" alt="Marcos-Lopez" loading="lazy" class="hero-img" />
+    <div class="hero-bio animate__animated animate__shakeX">
+      <h2 class="hero-bio-titulo">Sobre Mí</h2>
+      <p class="hero-bio-texto">
+        Soy una persona capaz de trabajar en equipo aportando ideas, debido a mi experiencia
+        como Operador de Recepción Digital era necesario la comunicación entre departamento
+        para ser eficaz también ser multitarea manteniéndome en comunicación con mi equipo,
+        debido a ser un aprendiz proactivo me he dado a la tarea de esforzarme en aprender
+        para mejorar constantemente.
+      </p>
+    </div>
+  </section>
+
+  <!-- Sobre Mí -->
+  <section class="hero-sobre" id="hero-sobre">
+    <h2>Más sobre mí</h2>
+    <p>
+      Al trabajar con un equipo me he dado a la tarea de gestionar mis tiempos, estar atento
+      a los detalles para detectar anomalías para después corregirlas.
+    </p>
+    <p>
+      Mi punto fuerte es relacionarme con mis compañeros o líderes de trabajo para evitar conflictos
+      innecesarios, mantengo la calma bajo presión esto me ha ayudado a salir de problemas complejos.
+    </p>
+    <p>
+      Me considero una persona afable con una actitud positiva, flexible y perseverante, aunque no tenga
+      un gran historial de logros notorios, me gusta trabajar.
+    </p>
+  </section>
+  <!-- Sección Habilidades -->
+  <section class="abilities" id="abilities">
+    <h2 class="abilities-header">Habilidades Principales</h2>
+
+    <div class="abilities-container">
+      <div class="first-set animate__animated animate__pulse">
+        <img src="assets/icons/Skills-Java.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/Skills-git.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/Skills-JavaScript.svg" alt="" loading="lazy" class="icon icon-card" />
+      </div>
+
+      <div class="second-set animate__animated animate__pulse">
+        <img src="assets/icons/Skills-Mongodb.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/Skills-node.svg" alt="" loading="lazy" class="icon icon-card" />
+        <img src="assets/icons/Skills-Python.svg" alt="" loading="lazy" class="icon icon-card" />
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Proyectos -->
+  <section class="proyectos" id="proyectos">
+    <h2 class="titulo-de-proyectos">Algunos de mis proyectos recientes</h2>
+    <div class="contenedor-de-proyectos">
+      <div class="contenedor-de-proyecto tarjeta-de-proyecto">
+        <img src="assets/images/expenseTracker.png" alt="rastreador-de-gastos" loading="lazy" class="project-pic" />
+        <h3 class="titulo-de-proyectos">Rastreador de Gastos</h3>
+        <p class="detalle-de-proyectos">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+          ratione vel inventore labore commodi modi quos culpa aut saepe!
+          Alias!
+        </p>
+        <a href="#" target="_blank" class="enlace-de-proyecto">View</a>
+      </div>
+      <div class="contenedor-de-proyecto tarjeta-de-proyecto ">
+        <img src="assets/images/CloneML.svg" alt="netflic-clone" loading="lazy" class="project-pic" />
+        <h3 class="titulo-proyecto">Netflix Clone</h3>
+        <p class="detalles-proyecto">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+          ratione vel inventore labore commodi modi quos culpa aut saepe!
+          Alias!
+        </p>
+        <a href="#" target="_blank" class="project-link">View</a>
+      </div>
+      <div class="contenedor-de-proyecto tarjeta-de-proyecto">
+        <img src="assets/images/Cascada-Yosondua.svg" alt="cascada-yosondua" loading="lazy" class="project-pic" />
+        <h3 class="titulo-de-proyectos">Cascada Yosondua</h3>
+        <p class="detalles-de-proyecto">
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas
+          ratione vel inventore labore commodi modi quos culpa aut saepe!
+          Alias!
+        </p>
+        <a href="https://ubiquitous-blini-9c3393.netlify.app/" target="_blank" class="enlace-de-proyecto">View</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección Contacto-->
+  <section class="contacto" id="contacto">
+    <h2>Contactame</h2>
+    <div class="contenedor-formulario-contacto">
+      <div class="formulario-contacto">
+        <form action="https://formspree.io/f/moqzrqgb" method="POST">
+          <div class="control-formulario">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="sender-name" placeholder="Escribe tu nombre" class="input-field"
+              required />
+          </div>
+          <div class="control-formulario">
+            <label for="email">Correo Electrónico</label>
+            <input type="email" id="email" name="sender-email" placeholder="Ingreso tu correo electrónico"
+              class="input-field" required />
+          </div>
+          <div class="control-formulario">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" cols="60" rows="10" placeholder="Escribe tu mensaje" name="mensaje"
+              class="input-field" required></textarea>
+          </div>
+          <input type="submit" value="Enviar" id="submit-btn" class="submit-btn" />
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de redes sociales - Fijado a la derecha -->
+  <div class="sociales">
+    <a href="#" target="_blank"><img src="assets/icons/icons8-twitter-circled.gif" alt="Twitter" loading="lazy"
+        class="socicon" /></a>
+    <a href="#" target="_blank"><img src="assets/icons/icons8-instagram.gif" alt="Instagram" loading="lazy"
+        class="socicon" /></a>
+    <a href="www.linkedin.com/in/marcos-lopez-sanchez-455271219" target="_blank"><img src="assets/icons/icons8-linkedin-circled.gif" alt="Linkedin" loading="lazy" 
+        class="socicon" /></a>
+    <a href="https://github.com/programmer-lopez/portafolio-html.git" target="_blank"><img src="assets/icons/icons8-github.gif" alt="Github" loading="lazy" 
+        class="socicon" /></a>
+  </div>
+  <!-- Sección Footer  -->
+  <footer>
+    <p class="copy">&copy; Copyright 2023</p>
+    <p class="copy">
+      Desarrollado by
+      <a href="https://github.com/programmer-lopez/portafolio-html.git" target="_blank">Marcos-Lopez-Sanchez</a>
+    </p>
+  </footer>
+  <!-- Vuelve al comienzo  -->
+  <i class="desplazarse-hacia-arriba" id="desplazarse-hacia-arriba"><img src="assets/icons/icons8-upward-arrow.gif"
+      class="socicon up-arrow" alt="desplazarse-hacia-arriba" /></i>
+
+  <!-- Website scripts -->
+  <script src="assets/js/assets.js"></script>
+
+  <!-- Ion icons scripts -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>

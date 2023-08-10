@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../app/stylesGlobal/global-large.css"],
+  "sourcesContent": ["h1 {\n    font-size: 3.75rem;\n    line-height: 1;\n  }\n  \n  h2 {\n    font-size: 1.875rem;\n    line-height: 2.25rem;\n  }\n  \n  h3 {\n    font-size: 1.5rem;\n    line-height: 2rem;\n  }\n  \n  h4 {\n    font-size: 1.25rem;\n    line-height: 1.75rem;\n  }\n  \n  h5 {\n    font-size: 1.125rem;\n    line-height: 1.75rem;\n  }\n  "],
+  "mappings": ";AAAA;AACI;AACA;;AAGF;AACE;AACA;;AAGF;AACE;AACA;;AAGF;AACE;AACA;;AAGF;AACE;AACA;;",
+  "names": []
+}

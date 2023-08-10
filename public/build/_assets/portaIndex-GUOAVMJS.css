@@ -1,0 +1,48 @@
+/* app/routes/styles/portaIndex.css */
+.perfile-img {
+  height: 75vh;
+  width: auto;
+}
+.portafolio-section {
+  display: flex;
+  align-items: center;
+}
+.about-container {
+  display: flex;
+}
+.card {
+  width: 290px;
+  height: 450px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 5px #49453466;
+  margin: 20px;
+}
+.card .card-content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+  text-align: center;
+  padding: 30px;
+  background-color: var(--perfile);
+}
+.card .card-content p {
+  margin-top: 40px;
+  color: var(--blanco);
+}
+.portafolio-h3 {
+  text-align: center;
+  color: var(--blanco);
+  padding-bottom: 10%;
+  border-bottom: 1px solid var(--color-border);
+}
+.card-content p {
+  font-size: 16px;
+}
+.card-conteiner {
+  padding-top: 20px;
+}
+/*# sourceMappingURL=/build/_assets/portaIndex-7W6RE74R.css.map */

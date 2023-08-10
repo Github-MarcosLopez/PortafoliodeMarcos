@@ -1,0 +1,110 @@
+/* app/stylesGlobal/global.css */
+:root {
+  --perfile: #1e2a3a;
+  --main-wrapper: #111821;
+  --normal-font: 400;
+  --bold-font: 700;
+  --bolder-font: 900;
+  --blanco: #fcfcfc;
+  --color-text1: #0d1117;
+  --color-text2: #ffff;
+  --color-text3: #494848;
+  --primary-color: #34b298;
+  --color-background: #34B298;
+  --secondary-color: #1f6456;
+  --primary-shadow: #8b8eaf;
+  --secondary-shadow: #a17a69;
+  --color-nav: hsl(168, 40%, 42%);
+  --color-border: hsl(210, 1%, 69%);
+  ---color-links: #ffff00;
+  --color-card: #25ba9c;
+  --bottom-margin: .5rem;
+  --bottom-margin-2: 1rem;
+  --transition: .3s;
+  --font-body:
+    -apple-system,
+    "Segoe UI",
+    Helvetica Neue,
+    Helvetica,
+    Roboto,
+    Arial,
+    sans-serif,
+    system-ui,
+    "Apple Color Emoji",
+    "Segoe UI Emoji";
+  --font-display: var(--font-body);
+}
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  color: var(--color-text);
+  background-color: var(--color-background);
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  background-color: var(--color-border);
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+body {
+  font-family: var(--font-display);
+  line-height: 1.5;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-height: calc(100vh - env(safe-area-inset-bottom));
+}
+a {
+  color: var(--color-links);
+  text-decoration: none;
+}
+a:hover {
+  color: var(--color-links-hover);
+  text-decoration: underline;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  margin: 0;
+}
+h1 {
+  font-size: 4.25rem;
+  line-height: 2.5rem;
+}
+h2 {
+  font-size: 3rem;
+  line-height: 2rem;
+}
+h3 {
+  font-size: 2rem;
+  line-height: 1.75rem;
+}
+h4 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+h5 {
+  font-size: 1rem;
+  line-height: 1.25rem;
+}
+h6 {
+  font-size: .575rem;
+  line-height: 1.25rem;
+}
+.container {
+  --gutter: 16px;
+  width: 1024px;
+  max-width: calc(100% - var(--gutter) * 2);
+  margin-right: auto;
+  margin-left: auto;
+}
+/*# sourceMappingURL=/build/_assets/global-NAVLGNQZ.css.map */
