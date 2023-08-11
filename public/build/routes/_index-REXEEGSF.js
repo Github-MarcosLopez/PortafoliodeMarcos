@@ -34,7 +34,7 @@ var links = () => [
   { rel: "stylesheet", href: local_default }
 ];
 function IndexRoute() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "content", children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "container items-center ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("div", { className: "content", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("h1", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", { children: "Marcos Lopez." }, void 0, false, {
       fileName: "app/routes/_index.tsx",
       lineNumber: 14,
@@ -44,7 +44,7 @@ function IndexRoute() {
       lineNumber: 13,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("nav", { className: "content-hover", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("ul", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("nav", { className: "content-hover ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("ul", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("li", { className: "row hover", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(Link, { to: "portafolio", children: /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("button", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)("span", {}, void 0, false, {
           fileName: "app/routes/_index.tsx",
@@ -120,4 +120,4 @@ export {
   IndexRoute as default,
   links
 };
-//# sourceMappingURL=/build/routes/_index-7GQMO4KY.js.map
+//# sourceMappingURL=/build/routes/_index-REXEEGSF.js.map

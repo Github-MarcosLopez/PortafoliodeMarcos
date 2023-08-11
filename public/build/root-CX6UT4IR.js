@@ -33,7 +33,7 @@ init_buffer();
 init_process();
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-4KA237TC.css";
+var tailwind_default = "/build/_assets/tailwind-YL3VFSG7.css";
 
 // app/stylesGlobal/global-large.css
 var global_large_default = "/build/_assets/global-large-6HOZAAJY.css";
@@ -133,4 +133,4 @@ export {
   links,
   meta
 };
-//# sourceMappingURL=/build/root-HNMNTUZO.js.map
+//# sourceMappingURL=/build/root-CX6UT4IR.js.map

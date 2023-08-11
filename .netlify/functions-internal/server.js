@@ -143,7 +143,7 @@ __export(root_exports, {
 var import_react2 = require("@remix-run/react");
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-4KA237TC.css";
+var tailwind_default = "/build/_assets/tailwind-YL3VFSG7.css";
 
 // app/root.tsx
 var import_react3 = require("@nextui-org/react");
@@ -962,8 +962,9 @@ function PortafolioIndexRoute() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
           import_react5.Avatar,
           {
-            src: "https://i.pravatar.cc/150?u=a042581f4e29026024d",
-            className: "w-6 h-6 text-tiny"
+            isBordered: !0,
+            color: "default",
+            src: "https://i.pravatar.cc/150?u=a042581f4e29026024d"
           },
           void 0,
           !1,
@@ -977,14 +978,15 @@ function PortafolioIndexRoute() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
           import_react5.Avatar,
           {
-            src: "https://i.pravatar.cc/150?u=a04258a2462d826712d",
-            size: "sm"
+            isBordered: !0,
+            color: "primary",
+            src: "https://i.pravatar.cc/150?u=a04258a2462d826712d"
           },
           void 0,
           !1,
           {
             fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 88,
+            lineNumber: 89,
             columnNumber: 13
           },
           this
@@ -992,14 +994,15 @@ function PortafolioIndexRoute() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
           import_react5.Avatar,
           {
-            src: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
-            size: "md"
+            isBordered: !0,
+            color: "secondary",
+            src: "https://i.pravatar.cc/150?u=a042581f4e29026704d"
           },
           void 0,
           !1,
           {
             fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 92,
+            lineNumber: 94,
             columnNumber: 13
           },
           this
@@ -1007,14 +1010,15 @@ function PortafolioIndexRoute() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
           import_react5.Avatar,
           {
-            src: "https://i.pravatar.cc/150?u=a04258114e29026302d",
-            size: "lg"
+            isBordered: !0,
+            color: "success",
+            src: "https://i.pravatar.cc/150?u=a04258114e29026302d"
           },
           void 0,
           !1,
           {
             fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 96,
+            lineNumber: 99,
             columnNumber: 13
           },
           this
@@ -1022,14 +1026,31 @@ function PortafolioIndexRoute() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
           import_react5.Avatar,
           {
-            src: "https://i.pravatar.cc/150?u=a04258114e29026708c",
-            className: "w-20 h-20 text-large"
+            isBordered: !0,
+            color: "warning",
+            src: "https://i.pravatar.cc/150?u=a04258114e29026702d"
           },
           void 0,
           !1,
           {
             fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 100,
+            lineNumber: 104,
+            columnNumber: 13
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
+          import_react5.Avatar,
+          {
+            isBordered: !0,
+            color: "danger",
+            src: "https://i.pravatar.cc/150?u=a04258114e29026708c"
+          },
+          void 0,
+          !1,
+          {
+            fileName: "app/routes/portafolio._index.tsx",
+            lineNumber: 109,
             columnNumber: 13
           },
           this
@@ -1522,7 +1543,7 @@ var import_jsx_dev_runtime8 = require("react/jsx-dev-runtime"), links7 = () => [
   { rel: "stylesheet", href: local_default }
 ];
 function IndexRoute() {
-  return /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "container", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "content", children: [
+  return /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "container items-center ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("div", { className: "content", children: [
     /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("h1", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("span", { children: "Marcos Lopez." }, void 0, !1, {
       fileName: "app/routes/_index.tsx",
       lineNumber: 14,
@@ -1532,7 +1553,7 @@ function IndexRoute() {
       lineNumber: 13,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("nav", { className: "content-hover", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("ul", { children: [
+    /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("nav", { className: "content-hover ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("ul", { children: [
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("li", { className: "row hover", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_react8.Link, { to: "portafolio", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("button", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("span", {}, void 0, !1, {
           fileName: "app/routes/_index.tsx",
@@ -1606,7 +1627,7 @@ function IndexRoute() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-Y2ZLEDJ6.js", imports: ["/build/_shared/chunk-524W4XIG.js", "/build/_shared/chunk-DFFBMGQJ.js", "/build/_shared/chunk-NLQNPAAV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-HNMNTUZO.js", imports: ["/build/_shared/chunk-SDWWKMA5.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-7GQMO4KY.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portafolio": { id: "routes/portafolio", parentId: "root", path: "portafolio", index: void 0, caseSensitive: void 0, module: "/build/routes/portafolio-ERLRFEUK.js", imports: ["/build/_shared/chunk-T6FDUMDR.js", "/build/_shared/chunk-HB6NVDOX.js", "/build/_shared/chunk-3H3FF2GI.js", "/build/_shared/chunk-SGXQ7AX7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portafolio._index": { id: "routes/portafolio._index", parentId: "routes/portafolio", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/portafolio._index-DWU7HC72.js", imports: ["/build/_shared/chunk-SDWWKMA5.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portafolio.about": { id: "routes/portafolio.about", parentId: "routes/portafolio", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/portafolio.about-NKHIEIUS.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portafolio.contacto": { id: "routes/portafolio.contacto", parentId: "routes/portafolio", path: "contacto", index: void 0, caseSensitive: void 0, module: "/build/routes/portafolio.contacto-45GHLTDK.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portafolio.experiencia": { id: "routes/portafolio.experiencia", parentId: "routes/portafolio", path: "experiencia", index: void 0, caseSensitive: void 0, module: "/build/routes/portafolio.experiencia-P245TGQZ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, version: "cf27bb7e", hmr: void 0, url: "/build/manifest-CF27BB7E.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-Y2ZLEDJ6.js", imports: ["/build/_shared/chunk-524W4XIG.js", "/build/_shared/chunk-DFFBMGQJ.js", "/build/_shared/chunk-NLQNPAAV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-CX6UT4IR.js", imports: ["/build/_shared/chunk-SDWWKMA5.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-REXEEGSF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portafolio": { id: "routes/portafolio", parentId: "root", path: "portafolio", index: void 0, caseSensitive: void 0, module: "/build/routes/portafolio-ERLRFEUK.js", imports: ["/build/_shared/chunk-T6FDUMDR.js", "/build/_shared/chunk-HB6NVDOX.js", "/build/_shared/chunk-3H3FF2GI.js", "/build/_shared/chunk-SGXQ7AX7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portafolio._index": { id: "routes/portafolio._index", parentId: "routes/portafolio", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/portafolio._index-DF4ULVHL.js", imports: ["/build/_shared/chunk-SDWWKMA5.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portafolio.about": { id: "routes/portafolio.about", parentId: "routes/portafolio", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/portafolio.about-NKHIEIUS.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portafolio.contacto": { id: "routes/portafolio.contacto", parentId: "routes/portafolio", path: "contacto", index: void 0, caseSensitive: void 0, module: "/build/routes/portafolio.contacto-45GHLTDK.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portafolio.experiencia": { id: "routes/portafolio.experiencia", parentId: "routes/portafolio", path: "experiencia", index: void 0, caseSensitive: void 0, module: "/build/routes/portafolio.experiencia-P245TGQZ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, version: "ae376032", hmr: void 0, url: "/build/manifest-AE376032.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { unstable_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

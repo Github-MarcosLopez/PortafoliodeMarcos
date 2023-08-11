@@ -3773,8 +3773,9 @@ function PortafolioIndexRoute() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
           avatar_default,
           {
-            src: "https://i.pravatar.cc/150?u=a042581f4e29026024d",
-            className: "w-6 h-6 text-tiny"
+            isBordered: true,
+            color: "default",
+            src: "https://i.pravatar.cc/150?u=a042581f4e29026024d"
           },
           void 0,
           false,
@@ -3788,14 +3789,15 @@ function PortafolioIndexRoute() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
           avatar_default,
           {
-            src: "https://i.pravatar.cc/150?u=a04258a2462d826712d",
-            size: "sm"
+            isBordered: true,
+            color: "primary",
+            src: "https://i.pravatar.cc/150?u=a04258a2462d826712d"
           },
           void 0,
           false,
           {
             fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 88,
+            lineNumber: 89,
             columnNumber: 13
           },
           this
@@ -3803,14 +3805,15 @@ function PortafolioIndexRoute() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
           avatar_default,
           {
-            src: "https://i.pravatar.cc/150?u=a042581f4e29026704d",
-            size: "md"
+            isBordered: true,
+            color: "secondary",
+            src: "https://i.pravatar.cc/150?u=a042581f4e29026704d"
           },
           void 0,
           false,
           {
             fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 92,
+            lineNumber: 94,
             columnNumber: 13
           },
           this
@@ -3818,14 +3821,15 @@ function PortafolioIndexRoute() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
           avatar_default,
           {
-            src: "https://i.pravatar.cc/150?u=a04258114e29026302d",
-            size: "lg"
+            isBordered: true,
+            color: "success",
+            src: "https://i.pravatar.cc/150?u=a04258114e29026302d"
           },
           void 0,
           false,
           {
             fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 96,
+            lineNumber: 99,
             columnNumber: 13
           },
           this
@@ -3833,14 +3837,31 @@ function PortafolioIndexRoute() {
         /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
           avatar_default,
           {
-            src: "https://i.pravatar.cc/150?u=a04258114e29026708c",
-            className: "w-20 h-20 text-large"
+            isBordered: true,
+            color: "warning",
+            src: "https://i.pravatar.cc/150?u=a04258114e29026702d"
           },
           void 0,
           false,
           {
             fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 100,
+            lineNumber: 104,
+            columnNumber: 13
+          },
+          this
+        ),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime.jsxDEV)(
+          avatar_default,
+          {
+            isBordered: true,
+            color: "danger",
+            src: "https://i.pravatar.cc/150?u=a04258114e29026708c"
+          },
+          void 0,
+          false,
+          {
+            fileName: "app/routes/portafolio._index.tsx",
+            lineNumber: 109,
             columnNumber: 13
           },
           this
@@ -3869,4 +3890,4 @@ export {
   PortafolioIndexRoute as default,
   links
 };
-//# sourceMappingURL=/build/routes/portafolio._index-DWU7HC72.js.map
+//# sourceMappingURL=/build/routes/portafolio._index-DF4ULVHL.js.map

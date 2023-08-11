@@ -8,12 +8,12 @@ export const links: LinksFunction = () => [
 
 export default function IndexRoute() {
   return (
-    <div className="container">
+    <div className="container items-center ">
       <div className="content">
         <h1>
           <span>Marcos Lopez.</span>
         </h1>
-        <nav className="content-hover">
+        <nav className="content-hover ">
           <ul>
             <li className="row hover">
               <Link to="portafolio">
