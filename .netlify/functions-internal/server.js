@@ -143,7 +143,7 @@ __export(root_exports, {
 var import_react2 = require("@remix-run/react");
 
 // app/tailwind.css
-var tailwind_default = "/build/_assets/tailwind-YL3VFSG7.css";
+var tailwind_default = "/build/_assets/tailwind-TZK6NAYK.css";
 
 // app/root.tsx
 var import_react3 = require("@nextui-org/react");
@@ -778,7 +778,7 @@ var perfile_default = "/build/_assets/perfile-HGOCGL2P.png";
 var portaIndex_default = "/build/_assets/portaIndex-GUOAVMJS.css";
 
 // app/routes/portafolio._index.tsx
-var import_fa6 = require("react-icons/fa6"), import_react5 = require("@nextui-org/react"), import_jsx_dev_runtime5 = require("react/jsx-dev-runtime"), links4 = () => [
+var import_fa6 = require("react-icons/fa6"), import_jsx_dev_runtime5 = require("react/jsx-dev-runtime"), links4 = () => [
   { rel: "stylesheet", href: portaIndex_default }
 ];
 function PortafolioIndexRoute() {
@@ -793,274 +793,170 @@ function PortafolioIndexRoute() {
       lineNumber: 22,
       columnNumber: 9
     }, this),
-    /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("section", { id: "portafolio_index", children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "portafolio-section", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("img", { className: "perfile-img", src: perfile_default, alt: "Marcos_Lopez" }, void 0, !1, {
-          fileName: "app/routes/portafolio._index.tsx",
-          lineNumber: 27,
-          columnNumber: 13
-        }, this),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "about-content", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "about-container", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "card", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "card-content", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "card-conteiner", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("span", {}, void 0, !1, {
-              fileName: "app/routes/portafolio._index.tsx",
-              lineNumber: 33,
-              columnNumber: 23
-            }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h3", { className: "portafolio-h3", children: "Habilidades" }, void 0, !1, {
-              fileName: "app/routes/portafolio._index.tsx",
-              lineNumber: 34,
-              columnNumber: 23
-            }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: [
-              /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("span", { style: { fontSize: "20px" }, children: "Experiencia en:" }, void 0, !1, {
-                fileName: "app/routes/portafolio._index.tsx",
-                lineNumber: 36,
-                columnNumber: 25
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, !1, {
-                fileName: "app/routes/portafolio._index.tsx",
-                lineNumber: 39,
-                columnNumber: 25
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, !1, {
-                fileName: "app/routes/portafolio._index.tsx",
-                lineNumber: 40,
-                columnNumber: 25
-              }, this),
-              " ",
-              /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(import_fa6.FaReact, { style: { fontSize: "30px" } }, void 0, !1, {
-                fileName: "app/routes/portafolio._index.tsx",
-                lineNumber: 40,
-                columnNumber: 32
-              }, this),
-              "React ",
-              /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, !1, {
-                fileName: "app/routes/portafolio._index.tsx",
-                lineNumber: 41,
-                columnNumber: 31
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(import_fa6.FaJava, { style: { fontSize: "30px" } }, void 0, !1, {
-                fileName: "app/routes/portafolio._index.tsx",
-                lineNumber: 42,
-                columnNumber: 25
-              }, this),
-              "java ",
-              /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, !1, {
-                fileName: "app/routes/portafolio._index.tsx",
-                lineNumber: 43,
-                columnNumber: 30
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(import_fa6.FaFileCode, { style: { fontSize: "30px" } }, void 0, !1, {
-                fileName: "app/routes/portafolio._index.tsx",
-                lineNumber: 44,
-                columnNumber: 25
-              }, this),
-              "Spring Boot",
-              /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, !1, {
-                fileName: "app/routes/portafolio._index.tsx",
-                lineNumber: 46,
-                columnNumber: 25
-              }, this),
-              /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(import_fa6.FaMdb, { style: { fontSize: "30px" } }, void 0, !1, {
-                fileName: "app/routes/portafolio._index.tsx",
-                lineNumber: 47,
-                columnNumber: 25
-              }, this),
-              " Mongo DB"
-            ] }, void 0, !0, {
-              fileName: "app/routes/portafolio._index.tsx",
-              lineNumber: 35,
-              columnNumber: 23
-            }, this)
-          ] }, void 0, !0, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("section", { id: "portafolio_index", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "portafolio-section", children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("img", { className: "perfile-img", src: perfile_default, alt: "Marcos_Lopez" }, void 0, !1, {
+        fileName: "app/routes/portafolio._index.tsx",
+        lineNumber: 27,
+        columnNumber: 13
+      }, this),
+      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "about-content", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "about-container", children: [
+        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "card", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "card-content", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "card-conteiner", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("span", {}, void 0, !1, {
             fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 32,
-            columnNumber: 21
-          }, this) }, void 0, !1, {
-            fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 31,
-            columnNumber: 19
-          }, this) }, void 0, !1, {
-            fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 30,
-            columnNumber: 17
+            lineNumber: 33,
+            columnNumber: 23
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "card", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "card-content", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "card-conteiner", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("span", {}, void 0, !1, {
-              fileName: "app/routes/portafolio._index.tsx",
-              lineNumber: 55,
-              columnNumber: 23
-            }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h3", { className: "portafolio-h3", children: "Disponibilidad" }, void 0, !1, {
-              fileName: "app/routes/portafolio._index.tsx",
-              lineNumber: 56,
-              columnNumber: 23
-            }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: "La experiencia obtenida es por el aprendizaje autodidacta con ayuda de las tecnolog\xEDa de la informacion. Cuento con toda la disponibilidad de esfuerzo, dedicaci\xF3n y tiempo." }, void 0, !1, {
-              fileName: "app/routes/portafolio._index.tsx",
-              lineNumber: 57,
-              columnNumber: 23
-            }, this)
-          ] }, void 0, !0, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h3", { className: "portafolio-h3", children: "Habilidades" }, void 0, !1, {
             fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 54,
-            columnNumber: 21
-          }, this) }, void 0, !1, {
-            fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 53,
-            columnNumber: 19
-          }, this) }, void 0, !1, {
-            fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 52,
-            columnNumber: 17
+            lineNumber: 34,
+            columnNumber: 23
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "card", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "card-content", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "card-conteiner", children: [
-            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("span", {}, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: [
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("span", { style: { fontSize: "20px" }, children: "Experiencia en:" }, void 0, !1, {
               fileName: "app/routes/portafolio._index.tsx",
-              lineNumber: 69,
-              columnNumber: 23
+              lineNumber: 36,
+              columnNumber: 25
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h3", { className: "portafolio-h3", children: "Compromiso" }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, !1, {
               fileName: "app/routes/portafolio._index.tsx",
-              lineNumber: 70,
-              columnNumber: 23
+              lineNumber: 39,
+              columnNumber: 25
             }, this),
-            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: "Enfrento situaciones poco comunes, bajo presi\xF3n desarrollando habilidades tanto responsabilidad para un crecimiento propio, con una curva de aprendizaje en base a mi experiencia." }, void 0, !1, {
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, !1, {
               fileName: "app/routes/portafolio._index.tsx",
-              lineNumber: 71,
-              columnNumber: 23
-            }, this)
+              lineNumber: 40,
+              columnNumber: 25
+            }, this),
+            " ",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(import_fa6.FaReact, { style: { fontSize: "30px" } }, void 0, !1, {
+              fileName: "app/routes/portafolio._index.tsx",
+              lineNumber: 40,
+              columnNumber: 32
+            }, this),
+            "React ",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, !1, {
+              fileName: "app/routes/portafolio._index.tsx",
+              lineNumber: 41,
+              columnNumber: 31
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(import_fa6.FaJava, { style: { fontSize: "30px" } }, void 0, !1, {
+              fileName: "app/routes/portafolio._index.tsx",
+              lineNumber: 42,
+              columnNumber: 25
+            }, this),
+            "java ",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, !1, {
+              fileName: "app/routes/portafolio._index.tsx",
+              lineNumber: 43,
+              columnNumber: 30
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(import_fa6.FaFileCode, { style: { fontSize: "30px" } }, void 0, !1, {
+              fileName: "app/routes/portafolio._index.tsx",
+              lineNumber: 44,
+              columnNumber: 25
+            }, this),
+            "Spring Boot",
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("br", {}, void 0, !1, {
+              fileName: "app/routes/portafolio._index.tsx",
+              lineNumber: 46,
+              columnNumber: 25
+            }, this),
+            /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(import_fa6.FaMdb, { style: { fontSize: "30px" } }, void 0, !1, {
+              fileName: "app/routes/portafolio._index.tsx",
+              lineNumber: 47,
+              columnNumber: 25
+            }, this),
+            " Mongo DB"
           ] }, void 0, !0, {
             fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 68,
-            columnNumber: 21
-          }, this) }, void 0, !1, {
-            fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 67,
-            columnNumber: 19
-          }, this) }, void 0, !1, {
-            fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 66,
-            columnNumber: 17
+            lineNumber: 35,
+            columnNumber: 23
           }, this)
         ] }, void 0, !0, {
           fileName: "app/routes/portafolio._index.tsx",
-          lineNumber: 29,
-          columnNumber: 15
+          lineNumber: 32,
+          columnNumber: 21
         }, this) }, void 0, !1, {
           fileName: "app/routes/portafolio._index.tsx",
-          lineNumber: 28,
-          columnNumber: 13
+          lineNumber: 31,
+          columnNumber: 19
+        }, this) }, void 0, !1, {
+          fileName: "app/routes/portafolio._index.tsx",
+          lineNumber: 30,
+          columnNumber: 17
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "card", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "card-content", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "card-conteiner", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("span", {}, void 0, !1, {
+            fileName: "app/routes/portafolio._index.tsx",
+            lineNumber: 55,
+            columnNumber: 23
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h3", { className: "portafolio-h3", children: "Disponibilidad" }, void 0, !1, {
+            fileName: "app/routes/portafolio._index.tsx",
+            lineNumber: 56,
+            columnNumber: 23
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: "La experiencia obtenida es por el aprendizaje autodidacta con ayuda de las tecnolog\xEDa de la informacion. Cuento con toda la disponibilidad de esfuerzo, dedicaci\xF3n y tiempo." }, void 0, !1, {
+            fileName: "app/routes/portafolio._index.tsx",
+            lineNumber: 57,
+            columnNumber: 23
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/portafolio._index.tsx",
+          lineNumber: 54,
+          columnNumber: 21
+        }, this) }, void 0, !1, {
+          fileName: "app/routes/portafolio._index.tsx",
+          lineNumber: 53,
+          columnNumber: 19
+        }, this) }, void 0, !1, {
+          fileName: "app/routes/portafolio._index.tsx",
+          lineNumber: 52,
+          columnNumber: 17
+        }, this),
+        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "card", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "card-content", children: /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "card-conteiner", children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("span", {}, void 0, !1, {
+            fileName: "app/routes/portafolio._index.tsx",
+            lineNumber: 69,
+            columnNumber: 23
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("h3", { className: "portafolio-h3", children: "Compromiso" }, void 0, !1, {
+            fileName: "app/routes/portafolio._index.tsx",
+            lineNumber: 70,
+            columnNumber: 23
+          }, this),
+          /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("p", { children: "Enfrento situaciones poco comunes, bajo presi\xF3n desarrollando habilidades tanto responsabilidad para un crecimiento propio, con una curva de aprendizaje en base a mi experiencia." }, void 0, !1, {
+            fileName: "app/routes/portafolio._index.tsx",
+            lineNumber: 71,
+            columnNumber: 23
+          }, this)
+        ] }, void 0, !0, {
+          fileName: "app/routes/portafolio._index.tsx",
+          lineNumber: 68,
+          columnNumber: 21
+        }, this) }, void 0, !1, {
+          fileName: "app/routes/portafolio._index.tsx",
+          lineNumber: 67,
+          columnNumber: 19
+        }, this) }, void 0, !1, {
+          fileName: "app/routes/portafolio._index.tsx",
+          lineNumber: 66,
+          columnNumber: 17
         }, this)
       ] }, void 0, !0, {
         fileName: "app/routes/portafolio._index.tsx",
-        lineNumber: 26,
-        columnNumber: 11
-      }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)("div", { className: "flex gap-4 items-center", children: [
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
-          import_react5.Avatar,
-          {
-            isBordered: !0,
-            color: "default",
-            src: "https://i.pravatar.cc/150?u=a042581f4e29026024d"
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 84,
-            columnNumber: 13
-          },
-          this
-        ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
-          import_react5.Avatar,
-          {
-            isBordered: !0,
-            color: "primary",
-            src: "https://i.pravatar.cc/150?u=a04258a2462d826712d"
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 89,
-            columnNumber: 13
-          },
-          this
-        ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
-          import_react5.Avatar,
-          {
-            isBordered: !0,
-            color: "secondary",
-            src: "https://i.pravatar.cc/150?u=a042581f4e29026704d"
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 94,
-            columnNumber: 13
-          },
-          this
-        ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
-          import_react5.Avatar,
-          {
-            isBordered: !0,
-            color: "success",
-            src: "https://i.pravatar.cc/150?u=a04258114e29026302d"
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 99,
-            columnNumber: 13
-          },
-          this
-        ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
-          import_react5.Avatar,
-          {
-            isBordered: !0,
-            color: "warning",
-            src: "https://i.pravatar.cc/150?u=a04258114e29026702d"
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 104,
-            columnNumber: 13
-          },
-          this
-        ),
-        /* @__PURE__ */ (0, import_jsx_dev_runtime5.jsxDEV)(
-          import_react5.Avatar,
-          {
-            isBordered: !0,
-            color: "danger",
-            src: "https://i.pravatar.cc/150?u=a04258114e29026708c"
-          },
-          void 0,
-          !1,
-          {
-            fileName: "app/routes/portafolio._index.tsx",
-            lineNumber: 109,
-            columnNumber: 13
-          },
-          this
-        )
-      ] }, void 0, !0, {
+        lineNumber: 29,
+        columnNumber: 15
+      }, this) }, void 0, !1, {
         fileName: "app/routes/portafolio._index.tsx",
-        lineNumber: 83,
-        columnNumber: 11
+        lineNumber: 28,
+        columnNumber: 13
       }, this)
     ] }, void 0, !0, {
+      fileName: "app/routes/portafolio._index.tsx",
+      lineNumber: 26,
+      columnNumber: 11
+    }, this) }, void 0, !1, {
       fileName: "app/routes/portafolio._index.tsx",
       lineNumber: 25,
       columnNumber: 9
@@ -1082,7 +978,7 @@ __export(portafolio_about_exports, {
   default: () => AboutPortafolioRoute,
   links: () => links5
 });
-var import_react6 = require("@remix-run/react");
+var import_react5 = require("@remix-run/react");
 
 // app/routes/styles/about.css
 var about_default = "/build/_assets/about-K3NDR4O5.css";
@@ -1096,7 +992,7 @@ var import_fa62 = require("react-icons/fa6"), import_jsx_dev_runtime6 = require(
 ];
 function AboutPortafolioRoute() {
   return /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("main", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)("div", { className: "about-content", children: [
-    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(import_react6.Links, {}, void 0, !1, {
+    /* @__PURE__ */ (0, import_jsx_dev_runtime6.jsxDEV)(import_react5.Links, {}, void 0, !1, {
       fileName: "app/routes/portafolio.about.tsx",
       lineNumber: 15,
       columnNumber: 9
@@ -1281,7 +1177,7 @@ __export(portafolio_exports, {
   default: () => PortafolioRoute,
   links: () => links6
 });
-var import_react7 = require("@remix-run/react");
+var import_react6 = require("@remix-run/react");
 
 // app/stylesGlobal/navigation.css
 var navigation_default = "/build/_assets/navigation-G7ZMYJM6.css";
@@ -1298,7 +1194,7 @@ function PortafolioRoute() {
         lineNumber: 18,
         columnNumber: 11
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h2", { className: "home-link", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react7.Link, { to: "/", title: "Portafolio", "aria-label": "Remix Portafolio", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", { className: "logo-medium", children: "Developed with Remix Tsx" }, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("h2", { className: "home-link", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react6.Link, { to: "/", title: "Portafolio", "aria-label": "Remix Portafolio", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", { className: "logo-medium", children: "Developed with Remix Tsx" }, void 0, !1, {
         fileName: "app/routes/portafolio.tsx",
         lineNumber: 21,
         columnNumber: 15
@@ -1350,7 +1246,7 @@ function PortafolioRoute() {
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "portafolio-card-content", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("ul", { className: "portafolio-card-links", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react7.Link, { to: "mailto:ing.marcoslopezsanchez@gmail.com?Subject=Oferta%20de%20trabajo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_bi.BiLogoGmail, {}, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react6.Link, { to: "mailto:ing.marcoslopezsanchez@gmail.com?Subject=Oferta%20de%20trabajo", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_bi.BiLogoGmail, {}, void 0, !1, {
             fileName: "app/routes/portafolio.tsx",
             lineNumber: 41,
             columnNumber: 21
@@ -1363,7 +1259,7 @@ function PortafolioRoute() {
             lineNumber: 39,
             columnNumber: 17
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react7.Link, { to: "https://www.linkedin.com/in/marcos-lopez-sanchez-455271219/", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_fa63.FaLinkedin, {}, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react6.Link, { to: "https://www.linkedin.com/in/marcos-lopez-sanchez-455271219/", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_fa63.FaLinkedin, {}, void 0, !1, {
             fileName: "app/routes/portafolio.tsx",
             lineNumber: 46,
             columnNumber: 21
@@ -1376,7 +1272,7 @@ function PortafolioRoute() {
             lineNumber: 44,
             columnNumber: 17
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react7.Link, { to: "https://github.com/programmer-lopez/portafolio-html.git", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_fa63.FaGithub, {}, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react6.Link, { to: "https://github.com/programmer-lopez/portafolio-html.git", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_fa63.FaGithub, {}, void 0, !1, {
             fileName: "app/routes/portafolio.tsx",
             lineNumber: 51,
             columnNumber: 21
@@ -1389,7 +1285,7 @@ function PortafolioRoute() {
             lineNumber: 49,
             columnNumber: 17
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react7.Link, { to: ".", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_fa63.FaTwitter, {}, void 0, !1, {
+          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react6.Link, { to: ".", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_fa63.FaTwitter, {}, void 0, !1, {
             fileName: "app/routes/portafolio.tsx",
             lineNumber: 56,
             columnNumber: 21
@@ -1412,7 +1308,7 @@ function PortafolioRoute() {
           columnNumber: 13
         }, this),
         /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("ul", { className: "portafolio__links", children: [
-          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("li", { className: "column hover", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react7.Link, { to: ".", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("button", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("li", { className: "column hover", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react6.Link, { to: ".", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("button", { children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", {}, void 0, !1, {
               fileName: "app/routes/portafolio.tsx",
               lineNumber: 65,
@@ -1432,7 +1328,7 @@ function PortafolioRoute() {
             lineNumber: 62,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react7.Link, { to: "about", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("button", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react6.Link, { to: "about", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("button", { children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", {}, void 0, !1, {
               fileName: "app/routes/portafolio.tsx",
               lineNumber: 72,
@@ -1452,7 +1348,7 @@ function PortafolioRoute() {
             lineNumber: 69,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react7.Link, { to: "experiencia", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("button", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react6.Link, { to: "experiencia", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("button", { children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", {}, void 0, !1, {
               fileName: "app/routes/portafolio.tsx",
               lineNumber: 79,
@@ -1472,7 +1368,7 @@ function PortafolioRoute() {
             lineNumber: 76,
             columnNumber: 15
           }, this),
-          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react7.Link, { to: "contacto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("button", { children: [
+          /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("li", { children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react6.Link, { to: "contacto", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("button", { children: [
             /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("span", {}, void 0, !1, {
               fileName: "app/routes/portafolio.tsx",
               lineNumber: 86,
@@ -1506,7 +1402,7 @@ function PortafolioRoute() {
         lineNumber: 27,
         columnNumber: 9
       }, this),
-      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "portafolio-outlet", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react7.Outlet, {}, void 0, !1, {
+      /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)("div", { className: "portafolio-outlet", children: /* @__PURE__ */ (0, import_jsx_dev_runtime7.jsxDEV)(import_react6.Outlet, {}, void 0, !1, {
         fileName: "app/routes/portafolio.tsx",
         lineNumber: 94,
         columnNumber: 11
@@ -1533,7 +1429,7 @@ __export(index_exports, {
   default: () => IndexRoute,
   links: () => links7
 });
-var import_react8 = require("@remix-run/react");
+var import_react7 = require("@remix-run/react");
 
 // app/routes/styles/local.css
 var local_default = "/build/_assets/local-JQO6VYX3.css";
@@ -1554,7 +1450,7 @@ function IndexRoute() {
       columnNumber: 9
     }, this),
     /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("nav", { className: "content-hover ", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("ul", { children: [
-      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("li", { className: "row hover", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_react8.Link, { to: "portafolio", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("button", { children: [
+      /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("li", { className: "row hover", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(import_react7.Link, { to: "portafolio", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("button", { children: [
         /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("span", {}, void 0, !1, {
           fileName: "app/routes/_index.tsx",
           lineNumber: 21,
@@ -1575,7 +1471,7 @@ function IndexRoute() {
         columnNumber: 13
       }, this),
       /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)("li", { className: "row hover", children: /* @__PURE__ */ (0, import_jsx_dev_runtime8.jsxDEV)(
-        import_react8.Link,
+        import_react7.Link,
         {
           to: "https://drive.google.com/file/d/1I6Gz0FbIle17-6rES018pqQUAK4lWM3f/view?usp=drive_link",
           download: "CV",
@@ -1627,7 +1523,7 @@ function IndexRoute() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-Y2ZLEDJ6.js", imports: ["/build/_shared/chunk-524W4XIG.js", "/build/_shared/chunk-DFFBMGQJ.js", "/build/_shared/chunk-NLQNPAAV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-CX6UT4IR.js", imports: ["/build/_shared/chunk-SDWWKMA5.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-REXEEGSF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portafolio": { id: "routes/portafolio", parentId: "root", path: "portafolio", index: void 0, caseSensitive: void 0, module: "/build/routes/portafolio-ERLRFEUK.js", imports: ["/build/_shared/chunk-T6FDUMDR.js", "/build/_shared/chunk-HB6NVDOX.js", "/build/_shared/chunk-3H3FF2GI.js", "/build/_shared/chunk-SGXQ7AX7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portafolio._index": { id: "routes/portafolio._index", parentId: "routes/portafolio", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/portafolio._index-DF4ULVHL.js", imports: ["/build/_shared/chunk-SDWWKMA5.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portafolio.about": { id: "routes/portafolio.about", parentId: "routes/portafolio", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/portafolio.about-NKHIEIUS.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portafolio.contacto": { id: "routes/portafolio.contacto", parentId: "routes/portafolio", path: "contacto", index: void 0, caseSensitive: void 0, module: "/build/routes/portafolio.contacto-45GHLTDK.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portafolio.experiencia": { id: "routes/portafolio.experiencia", parentId: "routes/portafolio", path: "experiencia", index: void 0, caseSensitive: void 0, module: "/build/routes/portafolio.experiencia-P245TGQZ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, version: "ae376032", hmr: void 0, url: "/build/manifest-AE376032.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-Y2ZLEDJ6.js", imports: ["/build/_shared/chunk-524W4XIG.js", "/build/_shared/chunk-DFFBMGQJ.js", "/build/_shared/chunk-NLQNPAAV.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-YPIQDP5O.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/_index": { id: "routes/_index", parentId: "root", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/_index-REXEEGSF.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portafolio": { id: "routes/portafolio", parentId: "root", path: "portafolio", index: void 0, caseSensitive: void 0, module: "/build/routes/portafolio-ERLRFEUK.js", imports: ["/build/_shared/chunk-T6FDUMDR.js", "/build/_shared/chunk-HB6NVDOX.js", "/build/_shared/chunk-3H3FF2GI.js", "/build/_shared/chunk-SGXQ7AX7.js"], hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portafolio._index": { id: "routes/portafolio._index", parentId: "routes/portafolio", path: void 0, index: !0, caseSensitive: void 0, module: "/build/routes/portafolio._index-3N27TG6R.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portafolio.about": { id: "routes/portafolio.about", parentId: "routes/portafolio", path: "about", index: void 0, caseSensitive: void 0, module: "/build/routes/portafolio.about-NKHIEIUS.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portafolio.contacto": { id: "routes/portafolio.contacto", parentId: "routes/portafolio", path: "contacto", index: void 0, caseSensitive: void 0, module: "/build/routes/portafolio.contacto-45GHLTDK.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 }, "routes/portafolio.experiencia": { id: "routes/portafolio.experiencia", parentId: "routes/portafolio", path: "experiencia", index: void 0, caseSensitive: void 0, module: "/build/routes/portafolio.experiencia-P245TGQZ.js", imports: void 0, hasAction: !1, hasLoader: !1, hasCatchBoundary: !1, hasErrorBoundary: !1 } }, cssBundleHref: void 0, version: "bb5017f1", hmr: void 0, url: "/build/manifest-BB5017F1.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var assetsBuildDirectory = "public/build", future = { unstable_dev: !1, unstable_postcss: !1, unstable_tailwind: !1, v2_errorBoundary: !0, v2_meta: !0, v2_normalizeFormMethod: !0, v2_routeConvention: !0 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {

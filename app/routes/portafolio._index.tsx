@@ -6,7 +6,7 @@ import perfile from "../../public/img/perfile.png";
 import stylesUrl from "./styles/portaIndex.css";
 import { FaReact, FaJava, FaFileCode, FaMdb } from "react-icons/fa6";
 
-import { Avatar} from "@nextui-org/react";
+import { Avatar } from "@nextui-org/react";
 
 export const links: LinksFunction = () => [
   { rel: "stylesheet", href: stylesUrl },
@@ -79,38 +79,6 @@ export default function PortafolioIndexRoute() {
                 </div>
               </div>
             </div>
-          </div>
-          <div className="flex gap-4 items-center">
-            <Avatar
-              isBordered
-              color="default"
-              src="https://i.pravatar.cc/150?u=a042581f4e29026024d"
-            />
-            <Avatar
-              isBordered
-              color="primary"
-              src="https://i.pravatar.cc/150?u=a04258a2462d826712d"
-            />
-            <Avatar
-              isBordered
-              color="secondary"
-              src="https://i.pravatar.cc/150?u=a042581f4e29026704d"
-            />
-            <Avatar
-              isBordered
-              color="success"
-              src="https://i.pravatar.cc/150?u=a04258114e29026302d"
-            />
-            <Avatar
-              isBordered
-              color="warning"
-              src="https://i.pravatar.cc/150?u=a04258114e29026702d"
-            />
-            <Avatar
-              isBordered
-              color="danger"
-              src="https://i.pravatar.cc/150?u=a04258114e29026708c"
-            />
           </div>
         </section>
       </div>
