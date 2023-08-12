@@ -1,4 +1,4 @@
-# portafolio-html
+# portafolio-html creado con Remix y typescript
 portafolio en html, js, css, etc
 
 https://www.codetable.net/entitiesinhtml    ---icon
